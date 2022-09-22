@@ -10,5 +10,7 @@ essentially a matrix representation of a graph, and then decomposed it into eige
 This algorithm for spectral clustering was applied on real world data of earthquake locations from 1000 seismic events of MB > 4.0 near Fiji since
 1964. The results uncovered the coordinates of earthquake hotspots.
 
+Note: all code is written in Julia
+
 A complete write-up can be found here:
 [21241_Final_Project.pdf](https://github.com/yerimsong/SpectralClustering/files/9629650/21241_Final_Project.pdf)
