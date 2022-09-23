@@ -2,7 +2,7 @@
 
 For the final project of Matrices and Linear Algebra (21-241), my partner and I implemented spectral clustering on both the k-nearest neighbor and e-neighborhood similarity graphs.
 
-In short, for the k-nearest-neighbor similarity graph, vertices were connected with weighted edges based on how close they were. Meanwhile, the e-neighborhood graph had vertices connected by an edge if the distance between them was less than a specified e.
+In short, for the k-nearest-neighbor similarity graph, vertices are connected with weighted edges based on how close they were. Meanwhile, the e-neighborhood graph has vertices connected by an edge if the distance between them is less than a specified e.
 
 After creating these two graphs, we clustered data points into groups using linear algebra concepts. In particular, we derived a Laplachian matrix,
 essentially a matrix representation of a graph, and then decomposed it into eigenvalues and eigenvectors.
